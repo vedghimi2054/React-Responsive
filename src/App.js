@@ -6,7 +6,6 @@ import ToDoList from './Components/ToDoList';
 import data from './data.json'
 function App() {
   const [toDoList, settoDoList] = useState(data);
- 
 
   const handleToggle=(id)=>{
     let mapped=toDoList.map(task=>{
